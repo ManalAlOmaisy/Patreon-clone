@@ -73,9 +73,7 @@ nav .nav-bar-left li{
     background-color: white;
       
 }
-nav .nav-bar-left li p{
-    padding: 0.3rem;
- }
+
 nav .nav-bar-left li a{
     color:black;
     line-height: 4.3rem;
@@ -120,8 +118,9 @@ nav .nav-bar-left ul li i{
 color:blue;
 padding-right:10px;
 }
-
-
+nav .nav-bar-left ul li p{
+    padding: 0.3rem;
+ }
 
 
 
@@ -568,7 +567,7 @@ footer #footer-social{
 
     /* section four*/
     .grid-photos{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
        
     }
     
@@ -685,7 +684,7 @@ footer #footer-social{
       }
 
       .grid-photos{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
        
     }
     .grid-photos img{
